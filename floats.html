@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Floats</title>
+
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 16px;
+            line-height: 1.5;
+            color: #333;
+            background-color: #f4f4f4;
+        }
+
+        h2 {
+            width: max-content;
+            margin: auto;
+            padding: 0;
+            font-size: 24px;
+            border: 2px solid;
+        }
+
+        p {
+            margin: 0;
+            padding: 0;
+            margin-bottom: 10px;
+            display: inline;
+        }
+
+        img {
+            width: 320px;
+            height: 240px;
+            margin: 0;
+            padding: 0;
+            margin-bottom: 10px;
+        }
+
+        .float-left {
+            float: left;
+            margin-right: 10px;
+        }
+
+        .float-right {
+            float: right;
+            margin-left: 10px;
+        }
+
+        .clearfix {
+            clear: both;
+        }
+
+        .clear-left {
+            clear: left;
+        }
+
+        .mt-8 {
+            margin-top: .8rem;
+        }
+
+        .d-inline {
+            display: inline;
+        }
+
+        /* @media (width <=768px) {
+            img {
+                width: 100%;
+                height: auto;
+            }
+        } */
+    </style>
+</head>
+
+<body>
+    <h2>CSS Floats Mastery</h2>
+    <!-- image -->
+    <div class="float-left">
+        <img src="https://loremflickr.com/320/240/flower?random=1" alt="Random Image">
+    </div>
+    <!-- text -->
+    <div>
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste optio non tenetur error animi quidem, ea quia
+            facilis ducimus voluptas ex necessitatibus impedit est alias laudantium magnam magni illo voluptate?
+            Consequuntur, culpa! Necessitatibus sapiente natus nesciunt dignissimos totam, odit facere magni quibusdam
+            minus
+            voluptatibus eligendi labore maiores rerum ullam eveniet.
+        </p>
+    </div>
+
+    <div class="clear-left float-right" style="width: 200px;">
+        <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ad eos laborum dolore quidem magni, perspiciatis
+            repellendus reiciendis facilis sed aliquid modi. Reprehenderit error aliquid illum nulla, vel eos magni quis
+            velit voluptatem possimus voluptates dicta ad at nisi consequuntur accusantium architecto laborum aliquam
+            odio.
+            Deleniti error veniam, facere exercitationem tempora esse, dolorum qui repudiandae architecto impedit rem
+            nam
+            quia quisquam accusantium unde ad, veritatis id? Tenetur nulla animi similique. Rerum harum nihil illum
+            ducimus
+            quaerat delectus culpa perferendis sit atque accusantium. Doloribus tempora tempore pariatur dolores,
+            distinctio
+            saepe amet? Nobis non, aliquid, officiis adipisci harum alias mollitia quos sequi reiciendis accusamus rem a
+            dolorem quae cumque exercitationem saepe eos sint blanditiis incidunt quidem velit! Necessitatibus
+            aspernatur
+            sunt eaque obcaecati veritatis!
+        </p>
+    </div>
+
+    <div class="clear-left">
+        <img src="https://loremflickr.com/320/240/flower?random=2" alt="Random Image">
+    </div>
+
+</body>
+
+</html>
